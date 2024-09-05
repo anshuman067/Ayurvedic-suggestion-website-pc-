@@ -1,0 +1,298 @@
+/* Base styles for all devices (already included in your CSS) */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a {
+    text-decoration: none;
+}
+a:hover {
+    color: rgb(247, 86, 86);
+}
+
+/* Media Queries */
+
+@media (min-width: 475px) {}
+@media (min-width: 640px) {}
+@media (min-width: 768px) {}
+@media (min-width: 1024px) {}
+@media (min-width: 1280px) {}
+@media (min-width: 1536px) {}
+.nav{
+    position: absolute;
+    top: 10px; left:12px; 
+    float: right;
+}
+.nav ul{
+      
+      list-style-type: none; 
+      font-size: larger;
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      text-decoration: none;
+
+}
+.nav li{
+    
+    padding: 13px;
+    display: inline;
+    color: rgb(166, 35, 218);
+    font-size: larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 300;
+    letter-spacing: normal;
+    
+    
+}
+.sign-up1{
+    position: absolute;
+    top: 3rem; right: 12px;
+    font-size: larger;
+    font-weight: 600;
+    letter-spacing: 0cap;
+    color: rgb(53, 53, 238);
+
+}
+.we{
+    font-size: xx-large;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding-right:10rem;
+    float: right;
+}
+
+.call{
+    font-size: larger;
+    position: absolute;
+    top: 3.5rem;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding-left:19px ;
+    font-style: italic;
+}
+
+
+
+
+.pic1{
+    background-image:url(sushrut-sahita.jpg);
+    width: 400px;
+    height: 500px;
+    background-position: center;
+    background-size:cover ;
+    position: absolute;
+    top: 100px; right:200px; 
+    animation: slider 9s infinite linear;
+    
+    
+}
+@keyframes slider{
+    0%{background-image: url(sushrut-sahita.jpg);}
+    55%{background-image: url(harak-samhita.jpg);}
+    85%{background-image: url(ayurveda\ and\ mind.jpg);}
+}
+.topline{
+    position: absolute;
+    top: 250px; left: 7%;
+
+}
+.custom-shape-divider-bottom-1706379843 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1706379843 svg {
+    position: relative;
+    display: block;
+    width: calc(150% + 1.3px);
+    height: 278px;
+}
+
+.custom-shape-divider-bottom-1706379843 .shape-fill {
+    fill: #F9C7C7;
+}
+.work{
+    background-image: url(pic1.jpg);
+    width: 100%;
+    height: 300px;
+    position: absolute;
+    top:45rem;
+    background-position: center;
+    background-size: cover; 
+
+}
+.custom-shape-divider-bottom-1706381344 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-bottom-1706381344 svg {
+    position: relative;
+    display: block;
+    width: calc(149% + 1.3px);
+    height: 147px;
+    transform: rotateY(180deg);
+    opacity: 0.6;
+}
+
+.custom-shape-divider-bottom-1706381344 .shape-fill {
+    fill: #DCCF2B;
+}
+.writting1{
+    text-align: center;
+    font-size: xx-large;
+    font-weight: 100;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    position: absolute;
+    top: 6rem; left: 16rem;
+    width: 60%;
+    z-index: 1;
+    font-style: italic;
+
+
+}
+.suggestion{
+    position: absolute;
+    top: 64rem;
+    font-style: italic;
+    color: rgb(254, 119, 119);
+
+}
+.container{
+    width: 100%;
+    height:500px;
+    position: absolute;
+    top: 68rem; left:12px;
+    display: flex;
+    justify-content: column;
+    
+    
+    
+}
+.btton{
+    position: absolute;
+    top: 12rem; left: 7rem;
+}
+.content{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+}
+.card{
+    box-shadow:#282e31 ;
+     box-shadow: 0px  5px 9px 5px;
+     transition: 0.5 ease-in-out;
+     padding: 8px;
+     width: 400px;
+     height: 500px;
+     margin-left: 2rem;
+     
+     
+     
+    
+}
+.card img{
+    border-radius: 10px;
+    
+    
+}
+.card:hover{
+    transform: translateY(50px);
+}
+.features{
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 142rem;
+    font-size: larger;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 2px;
+    
+}
+
+.container2{
+    width: 100%;
+    height:500px;
+    position: absolute;
+    top: 105rem; left:12px;
+    display: flex;
+    justify-content: column;
+
+}
+.form-fillup{
+    position:absolute;
+    top: 177rem;
+    font-size: x-large;
+    text-align: center;
+    padding-left: 240px;
+    
+
+}
+.box{
+    background-color:black;
+    color:whitesmoke;
+    border: 5px solid rgb(251, 251, 22);
+    width:100%;
+    height: 350px;
+    position: absolute;
+    top:185rem; 
+    padding: 15px;
+    display: flex;
+    justify-content: row;
+    border-radius: 2rem;
+    
+
+}
+.box .row .ff{
+    padding-left: 14px;
+    padding: 15px;
+
+}
+.col a{
+    padding-top: 10px;
+    
+}
+ .img2{
+    position: absolute;
+     left: 23px; top: 12px;
+     border-radius: 3px;
+}
+.tri{
+    overflow: hidden;
+}
+.html,css{
+    width: 100%;
+    height: 100%;
+    padding: 0px;
+    margin: 0px;
+    overflow-x: hidden;
+}
+.input-group {
+    position: absolute;
+    top:170rem;
+}
+.for{
+    position: absolute;
+    top:168rem;
+    color: rgb(235, 164, 57);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.quote{
+    height: 400px;
+    width: 400px;
+    border: 3px solid black;
+    border-radius:9rem;
+    position: absolute;
+    top: 19rem;left: 100px;
+    background-position: center;
+    background-size: cover;
+    background-image: url(quotes.png);
+}
